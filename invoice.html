@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirmation order</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<style>
+        .divbtn{
+            margin-left: 800px;
+        }
+        .button {
+              background-color: #4CAF50;
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+        .invoice-box {
+            max-width: 800px;
+            margin: auto;
+            padding: 30px;
+            border: 1px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+            font-size: 16px;
+            line-height: 24px;
+            font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+            color: #555;
+        }
+
+        .invoice-box table {
+            width: 100%;
+            line-height: inherit;
+            text-align: left;
+        }
+
+        .invoice-box table td {
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        .invoice-box table tr td:nth-child(2) {
+            text-align: right;
+        }
+
+        .invoice-box table tr.top table td {
+            padding-bottom: 20px;
+        }
+
+        .invoice-box table tr.top table td.title {
+            font-size: 45px;
+            line-height: 45px;
+            color: #333;
+        }
+
+        .invoice-box table tr.information table td {
+            padding-bottom: 40px;
+        }
+
+        .invoice-box table tr.heading td {
+            background: #eee;
+            border-bottom: 1px solid #ddd;
+            font-weight: bold;
+        }
+
+        .invoice-box table tr.details td {
+            padding-bottom: 20px;
+        }
+
+        .invoice-box table tr.item td {
+            border-bottom: 1px solid #eee;
+        }
+
+        .invoice-box table tr.item.last td {
+            border-bottom: none;
+        }
+
+        .invoice-box table tr.total td:nth-child(2) {
+            font-weight: bold;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .invoice-box table tr.top table td {
+                width: 100%;
+                display: block;
+                text-align: center;
+            }
+
+            .invoice-box table tr.information table td {
+                width: 100%;
+                display: block;
+                text-align: center;
+            }
+        }
+
+        /** RTL **/
+        .rtl {
+            direction: rtl;
+            font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        }
+
+        .rtl table {
+            text-align: right;
+        }
+
+        .rtl table tr td:nth-child(2) {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+	<div>
+    <div class="invoice-box" id="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td class="title">
+                            </td>
+                            <td>
+                                Invoice Order for cleaning service #: 001<br>
+                                Created: Wed Oct 3, 2018<br>
+                                Due: Wed Oct 10, 2018
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr class="information">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            
+                            <td>
+                                <h3>From</h3>
+                                Sparksuite, Inc.<br>
+                                12345 Sunny Road<br>
+                                Sunnyville, CA 12345
+                            </td>
+
+                            <td>
+                                <h3>To</h3>
+                                Irakoze eddy <br>
+                                0789889<br>
+                                sam@example.com<br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr class="heading">
+                <td>
+                    Details of order
+                </td>
+
+                <td>
+                    
+                </td>
+            </tr>
+            <tr class="item">
+                <td>
+                    Area
+                </td>
+                <td>
+                    Kigali
+                </td>
+            </tr>
+            <tr class="item">
+                <td>
+                    district
+                </td>
+                <td>
+                    Kicukiro
+                </td>
+            </tr>
+            <tr class="item">
+                <td>
+                    street
+                </td>
+                <td>
+                    kk 367 st
+                </td>
+            </tr>
+            <tr class="item">
+                <td>
+                    service
+                </td>
+                <td>
+                    House cleaning
+                </td>
+            </tr>
+            <tr class="item">
+                <td>
+                    facility
+                </td>
+                <td>
+                    Home
+                </td>
+            </tr>
+            <tr class="item">
+                <td>
+                    Date
+                </td>
+                <td>
+                    12/12/1009
+                </td>
+            </tr>
+            <tr class="item">
+                <td>
+                    Time
+                </td>
+                <td>
+                    12:32
+                </td>
+            </tr>
+            <tr class="total">
+                <td></td>
+
+                <td>
+                    To be Paid: $ 1222
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="divbtn">
+        <input type="button" class="button" value="Cancel">
+        <input type="button" class="button" value="Confirm" onclick="clickme()">
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
+<script type="text/javascript">
+    function clickme(){
+        var element = document.getElementById('invoice-box');
+        html2pdf(element, {
+          margin:       10,
+          filename:     'myfile.pdf',
+          html2canvas:  { scale: 2, logging: true, dpi: 192, letterRendering: true },
+          jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        });
+    }
+    
+</script>
+</body>
+</html>

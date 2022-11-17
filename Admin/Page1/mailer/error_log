@@ -1,0 +1,17 @@
+[10-Oct-2022 07:27:14 America/New_York] PHP Notice:  Undefined variable: book_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 14
+[10-Oct-2022 07:28:02 America/New_York] PHP Notice:  Undefined variable: book_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 14
+[10-Oct-2022 07:34:39 America/New_York] PHP Notice:  Undefined variable: book_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 14
+[10-Oct-2022 07:35:47 America/New_York] PHP Notice:  Undefined variable: book_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 14
+[10-Oct-2022 07:41:27 America/New_York] PHP Notice:  Undefined variable: book_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 14
+[10-Oct-2022 07:52:08 America/New_York] PHP Notice:  Undefined index: name_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 5
+[10-Oct-2022 08:42:06 America/New_York] PHP Notice:  Undefined index: name_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 5
+[10-Oct-2022 08:44:38 America/New_York] PHP Notice:  Undefined index: name_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 5
+[10-Oct-2022 09:06:04 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 151
+[10-Oct-2022 09:07:34 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 152
+[10-Oct-2022 09:08:33 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 152
+[13-Oct-2022 06:23:22 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 156
+[13-Oct-2022 06:30:45 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 156
+[17-Oct-2022 17:52:09 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 156
+[17-Oct-2022 17:52:45 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 156
+[17-Oct-2022 17:53:13 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 156
+[17-Oct-2022 18:11:42 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/mailer/index.php on line 156

@@ -1,0 +1,72 @@
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 15
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 21
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 49
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 57
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 63
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 91
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 98
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 104
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 132
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 139
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 145
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 173
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 180
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 186
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 214
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 221
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 227
+[19-Sep-2022 03:25:47 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/index.php on line 255
+[19-Sep-2022 03:27:57 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/booking.php on line 71
+[19-Sep-2022 03:27:57 America/New_York] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/booking.php on line 72
+[19-Sep-2022 03:27:57 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/booking.php on line 76
+[19-Sep-2022 03:27:57 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/booking.php on line 99
+[19-Sep-2022 03:33:24 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/employee.php on line 76
+[19-Sep-2022 03:33:24 America/New_York] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/employee.php on line 77
+[19-Sep-2022 03:33:24 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/employee.php on line 81
+[19-Sep-2022 03:33:24 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/employee.php on line 101
+[19-Sep-2022 03:33:48 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/employee.php on line 76
+[19-Sep-2022 03:33:48 America/New_York] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/employee.php on line 77
+[19-Sep-2022 03:33:48 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/employee.php on line 81
+[19-Sep-2022 03:33:48 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/employee.php on line 101
+[19-Sep-2022 03:38:10 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/employee_add.php on line 3
+[19-Sep-2022 03:47:25 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[19-Sep-2022 04:36:16 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[20-Sep-2022 16:14:39 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[22-Sep-2022 06:11:01 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[22-Sep-2022 06:37:06 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[23-Sep-2022 04:55:23 America/New_York] PHP Notice:  Undefined index: name_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign-report_complete.php on line 5
+[26-Sep-2022 04:37:05 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[26-Sep-2022 04:37:39 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[26-Sep-2022 04:38:06 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[26-Sep-2022 04:38:32 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[26-Sep-2022 04:38:46 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[26-Sep-2022 04:42:10 America/New_York] PHP Notice:  Undefined index: name_id in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign-report_pending.php on line 5
+[27-Sep-2022 05:10:32 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:15:29 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:16:30 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:23:10 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:24:44 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:27:14 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:27:14 America/New_York] PHP Notice:  Undefined index: worker in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 28
+[10-Oct-2022 07:28:01 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:28:01 America/New_York] PHP Notice:  Undefined index: worker in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 28
+[10-Oct-2022 07:31:28 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:31:28 America/New_York] PHP Notice:  Undefined variable: row in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 32
+[10-Oct-2022 07:33:26 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:33:26 America/New_York] PHP Notice:  Undefined variable: row in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 32
+[10-Oct-2022 07:34:39 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:34:39 America/New_York] PHP Notice:  Undefined variable: row in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 32
+[10-Oct-2022 07:35:46 America/New_York] PHP Notice:  Undefined index: book in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 27
+[10-Oct-2022 07:35:46 America/New_York] PHP Notice:  Undefined variable: row in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 32
+[10-Oct-2022 07:38:12 America/New_York] PHP Notice:  Undefined index: edit_id2 in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_edit.php on line 63
+[10-Oct-2022 07:41:26 America/New_York] PHP Notice:  Undefined variable: row in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 32
+[10-Oct-2022 07:52:08 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 32
+[10-Oct-2022 07:52:08 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 43
+[10-Oct-2022 07:53:20 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 32
+[10-Oct-2022 07:53:20 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 43
+[10-Oct-2022 08:18:02 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 35
+[10-Oct-2022 08:20:55 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 44
+[10-Oct-2022 08:21:50 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 44
+[10-Oct-2022 08:23:46 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 44
+[10-Oct-2022 08:25:16 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 47
+[10-Oct-2022 08:29:25 America/New_York] PHP Notice:  Undefined variable: namee in /home/watcaiku/STEM.watchitgroup.org/project/cleaning/Admin/Page1/assign_add.php on line 59
