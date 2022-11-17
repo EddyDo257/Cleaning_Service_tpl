@@ -140,13 +140,13 @@ $fill = !$fill; // to give alternate background fill  color to rows
 //Port to connect smtp
 	$mail->Port = "465";
 //Set gmail username
-	$mail->Username = "moise250@zohomail.com";
+	$mail->Username = "******";
 //Set gmail password
-	$mail->Password = "moise2022@";
+	$mail->Password = "****";
 //Email subject
 	$mail->Subject = "Emoloyee confirmation service order";
 //Set sender email
-	$mail->setFrom('moise250@zohomail.com');
+	$mail->setFrom('******');
 //Enable HTML
 	$mail->isHTML(true);
 //Attachment
